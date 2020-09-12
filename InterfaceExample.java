@@ -21,38 +21,9 @@ public interface RemoteControl
 }
 //----------------------------------------
 
-public class RemoteControlExample {	
-
-	public static void main(String[] args) 
-	{
-		SmartTelevision tv = new SmartTelevision();
-		
-		RemoteControl rc = tv;
-		rc.turnOn();
-		rc.turnOff();
-		rc.setVolume(5);
-		
-		Searchable searchable = tv;
-		searchable.search("http://naver.com");
-	}
-}
-//----------------------------------------
-
-public interface Searchable 
-{
-	void search(String url);
-}
-//----------------------------------------
-
-public class SmartTelevision implements RemoteControl, Searchable
+public class SmartTelevision implements RemoteControl
 {
 	private int volume;
-	
-	@Override
-	public void search(String url) 
-	{
-		System.out.println(url + "을 검색합니다!");
-	}
 
 	@Override
 	public void turnOn() 
