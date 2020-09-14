@@ -91,3 +91,21 @@ public class Audio implements RemoteControl
 		System.out.println("현재 Audio 볼륨 : " + volume);
 	}
 }
+//----------------------------------------
+
+public class RemoteControlExample {
+
+	public static void main(String[] args) 
+	{
+		RemoteControl rc = null;	// interface변수도 참조변수이기 때문에 구연객체 대입 전에 null초기화 가능 !
+		
+		rc = new SmartTelevision();
+		
+		rc.turnOn();
+		rc.turnOff();
+		
+		rc = new Audio();
+		rc.turnOn();
+		rc.turnOff();
+	}
+}
