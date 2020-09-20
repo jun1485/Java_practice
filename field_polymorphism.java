@@ -1,15 +1,19 @@
-public class Car 
+public class HankookTire implements Tire 
 {
-	Tire frontLeftTire = new HankookTire();
-	Tire frontRightTire = new HankookTire();
-	Tire backLeftTire = new HankookTire();
-	Tire backRightTire = new HankookTire();
-	
-	void run()
+
+	@Override
+	public void roll() 
 	{
-		frontLeftTire.roll();
-		frontRightTire.roll();
-		backLeftTire.roll();
-		backRightTire.roll();
+		System.out.println("한국 타이어가 굴러갑니다.");
+	}
+}
+//---------------------------------------------------
+
+public class KumhoTire implements Tire
+{
+	@Override
+	public void roll() 
+	{
+		System.out.println("금호 타이어가 굴러갑니다.");
 	}
 }
