@@ -17,3 +17,11 @@ public class KumhoTire implements Tire
 		System.out.println("금호 타이어가 굴러갑니다.");
 	}
 }
+
+//---------------------------------------------------
+
+public interface Tire 
+{
+	public void roll();
+}
+//---------------------------------------------------
