@@ -25,3 +25,16 @@ public interface Tire
 	public void roll();
 }
 //---------------------------------------------------
+
+public class CarExample
+{
+	public static void main(String[] args)
+	{
+		Car myCar = new Car();
+		myCar.run();
+		
+		System.out.println("-------------------------------");
+	}
+}
+
+		
