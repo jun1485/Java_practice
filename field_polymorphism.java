@@ -1,3 +1,20 @@
+public class Car 
+{
+	Tire frontLeftTire = new HankookTire();
+	Tire frontRightTire = new HankookTire();
+	Tire backLeftTire = new HankookTire();
+	Tire backRightTire = new HankookTire();
+	
+	void run()
+	{
+		frontLeftTire.roll();
+		frontRightTire.roll();
+		backLeftTire.roll();
+		backRightTire.roll();
+	}
+}
+//---------------------------------------------------
+
 public class HankookTire implements Tire 
 {
 
@@ -17,7 +34,6 @@ public class KumhoTire implements Tire
 		System.out.println("금호 타이어가 굴러갑니다.");
 	}
 }
-
 //---------------------------------------------------
 
 public interface Tire 
@@ -33,8 +49,11 @@ public class CarExample
 		Car myCar = new Car();
 		myCar.run();
 		
+		
 		System.out.println("-------------------------------");
+		myCar.frontLeftTire = new KumhoTire();
+		myCar.frontRightTire = new KumhoTire();
+		
+		myCar.run();
 	}
 }
-
-		
