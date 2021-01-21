@@ -9,3 +9,5 @@ public class scan {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("숫자 입력 : ");
+
+		int input = sc.nextInt();
