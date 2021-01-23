@@ -21,3 +21,6 @@ public class scan {
 		{
 			System.out.println("숫자가 정확하지 않음 !");
 		}
+		sc.close();
+	}
+}
