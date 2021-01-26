@@ -16,3 +16,10 @@ public class scan {
 		{
 			System.out.println("문자열이 정확함 !");
 		}
+		else
+		{
+			System.out.println("문자열이 정확하지 않음 !");
+		}
+		sc.close();
+	}
+}
