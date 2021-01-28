@@ -15,3 +15,7 @@ public class scan {
 			data[i] = sc.nextInt();
 			sum += data[i];			
 		}
+		
+		int max = data[0];
+		for(int i=0; i<n; i++)
+		{
