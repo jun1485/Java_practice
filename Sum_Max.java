@@ -12,3 +12,6 @@ public class scan {
 		
 		for(int i=0; i<n; i++)
 		{
+			data[i] = sc.nextInt();
+			sum += data[i];			
+		}
