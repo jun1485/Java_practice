@@ -19,3 +19,8 @@ public class scan {
 		int max = data[0];
 		for(int i=0; i<n; i++)
 		{
+			if(max < data[i])
+			max = data[i];
+		}
+	}
+}
