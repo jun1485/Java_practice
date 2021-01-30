@@ -20,7 +20,12 @@ public class scan {
 		for(int i=0; i<n; i++)
 		{
 			if(max < data[i])
-			max = data[i];
+				max = data[i];
 		}
+		
+		System.out.println("입력받은 정수의 합은 " + sum + " ,"
+				+ "최대값은 " + max + " 입니다.");
+		
+		sc.close();
 	}
 }
