@@ -13,3 +13,5 @@ public class arr_shift
 		{
 			arr[i] = sc.nextInt();
 		}
+		sc.close();
+		}
