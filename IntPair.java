@@ -12,3 +12,6 @@ public class IntPair
 		int count = 0;
 		
 		for(int i=0; i<n; i++)
+			data[i] = sc.nextInt();
+		
+		sc.close();
