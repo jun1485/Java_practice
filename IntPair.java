@@ -19,3 +19,9 @@ public class IntPair
 		{
 			for(int j=i+1; j<n; j++)
 				if(data[i] == data[j])
+					count++;	
+		}
+		System.out.println("입력된 숫자들의 정수쌍은 " + count +
+				"개 입니다.");
+	}
+}
