@@ -12,3 +12,7 @@ public class readFile
 	{
 		try 
 		{
+			Scanner sc = new Scanner(new File("input.txt"));
+			while(sc.hasNext())
+			{
+				name[n] = sc.next();
