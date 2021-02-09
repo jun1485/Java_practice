@@ -16,3 +16,8 @@ public class readFile
 			while(sc.hasNext())
 			{
 				name[n] = sc.next();
+				number[n] = sc.nextInt();
+				n++;
+			}
+			sc.close();
+		}
