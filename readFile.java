@@ -21,3 +21,8 @@ public class readFile
 			}
 			sc.close();
 		}
+		catch (FileNotFoundException e) 
+		{
+			System.out.println("No File");
+			System.exit(1);
+		}
