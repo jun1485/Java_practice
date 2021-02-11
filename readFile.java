@@ -26,3 +26,10 @@ public class readFile
 			System.out.println("No File");
 			System.exit(1);
 		}
+		for(int i=0; i<n; i++)
+		{
+			System.out.println(i+1 + "번째 이름 : " + name[i] + 
+					", 번호 : " + number[i]);
+		}
+	}
+}
