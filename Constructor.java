@@ -10,3 +10,11 @@ public class Mypoint
 	}
 	
 }
+----------------------------------------
+
+public class MyRectangle
+{
+	public Mypoint lu;
+	public int width;
+	public int height;
+	
