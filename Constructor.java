@@ -24,3 +24,10 @@ public class MyRectangle
 		width = w;
 		height = h;
 	}
+	
+	public MyRectangle(Mypoint p, int y, int w, int h)
+	{
+		lu = new Mypoint(x, y);
+		width = w;
+		height = h;
+	}
