@@ -31,3 +31,12 @@ public class MyRectangle
 		width = w;
 		height = h;
 	}
+	
+	public int calcArea()
+	{
+		return width * height;
+	}
+	
+	public String toString()
+	{
+	}
