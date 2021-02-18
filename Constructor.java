@@ -1,3 +1,4 @@
+/*
 public class Mypoint
 {
 	public int x;
@@ -39,4 +40,9 @@ public class MyRectangle
 	
 	public String toString()
 	{
+		return "(" + lu.x + ", " + lu.y + ") " + width + " " + height;
 	}
+	
+}
+
+----------------------------------------
