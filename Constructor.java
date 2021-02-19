@@ -46,3 +46,13 @@ public class MyRectangle
 }
 
 ----------------------------------------
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class Constructor
+{
+	
+	static MyRectangle[] rects = new MyRectangle [100];
+	static int n = 0;
