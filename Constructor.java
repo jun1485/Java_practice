@@ -1,4 +1,3 @@
-/*
 public class Mypoint
 {
 	public int x;
@@ -56,3 +55,8 @@ public class Constructor
 	
 	static MyRectangle[] rects = new MyRectangle [100];
 	static int n = 0;
+	
+	public static void main(String[] args)
+	{
+		try 
+		{
