@@ -60,3 +60,9 @@ public class Constructor
 	{
 		try 
 		{
+			Scanner sc = new Scanner(new File("data.txt"));
+			while(sc.hasNext())
+				rects[n++] = new MyRectangle(sc.nextInt(), sc.nextInt(), sc.nextInt(), sc.nextInt());
+		} 
+		catch (FileNotFoundException e) 
+		{
