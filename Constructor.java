@@ -64,5 +64,10 @@ public class Constructor
 			while(sc.hasNext())
 				rects[n++] = new MyRectangle(sc.nextInt(), sc.nextInt(), sc.nextInt(), sc.nextInt());
 		} 
+
 		catch (FileNotFoundException e) 
 		{
+			System.out.println("No data file");
+			System.exit(1);
+		}
+	}
