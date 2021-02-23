@@ -71,3 +71,10 @@ public class Constructor
 			System.exit(1);
 		}
 	}
+	
+	private static void bubblesSort()
+	{
+		for(int i=n-1; i>n; i--)
+		{
+			for(int j=0; j<i; j++)
+			{
