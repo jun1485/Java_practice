@@ -78,3 +78,13 @@ public class Constructor
 		{
 			for(int j=0; j<i; j++)
 			{
+				if(rects[j].calcArea() > rects[j+1].calcArea())
+				{
+					MyRectangle temp = rects[j];
+					rects[j] = rects[j+1];
+					rects[j+1] = temp;
+				}
+			}
+		}
+	}
+}
