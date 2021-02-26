@@ -11,3 +11,15 @@ public class MyPoint
 		this.y = y;
 	}
 }
+
+----------------------------------------
+
+package quadrangle;
+
+public class OrthoLine
+{
+	public MyPoint u;
+	public MyPoint v;
+	
+	public OrthoLine(MyPoint p, MyPoint q) 
+	{
