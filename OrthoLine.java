@@ -28,3 +28,10 @@ public class OrthoLine
 		if(p.x > q.x || p.x == q.x && p.y > q.y)
 			swap();		// 수직선의 경우 u가 y좌표가 더 작은 쪽, 수평선의 경우 u가 x좌표가 더 작은 점이 될 수 있도록
 	}
+
+	public void swap()
+	{
+		MyPoint temp = u;
+		u = v;
+		v = temp;
+	}
