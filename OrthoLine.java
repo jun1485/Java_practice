@@ -35,3 +35,11 @@ public class OrthoLine
 		u = v;
 		v = temp;
 	}
+
+	
+	public OrthoLine(int x1, int y1, int x2, int y2)
+	{
+		u = new MyPoint(x1, y1);
+		v = new MyPoint(x2, y2);
+	}
+	
