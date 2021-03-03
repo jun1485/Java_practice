@@ -43,3 +43,7 @@ public class OrthoLine
 		v = new MyPoint(x2, y2);
 	}
 	
+	public boolean isVertical()
+	{
+		return u.x == v.x;
+	}
