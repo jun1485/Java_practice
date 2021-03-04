@@ -47,3 +47,8 @@ public class OrthoLine
 	{
 		return u.x == v.x;
 	}
+		
+	public boolean intersects(OrthoLine other)
+	{
+		if(isVertical() && !other.isVertical())
+			return (other.u.x < u.x && other.v.x > u.x && u.y < other.u.y && v.y > other.u.y);
