@@ -52,3 +52,7 @@ public class OrthoLine
 	{
 		if(isVertical() && !other.isVertical())
 			return (other.u.x < u.x && other.v.x > u.x && u.y < other.u.y && v.y > other.u.y);
+		else if(!isVertical() && other.isVertical())
+			return (other.u.y < u.y && other.v.y > u.y && u.x < other.u.x && v.x > other.u.x);
+		else return false;
+	}
