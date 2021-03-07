@@ -5,3 +5,9 @@ public class MyDate 	// 이 프로그램의 핵심은 하나의 공통상위클�
 	public int month;
 	public int day;
 	
+	public MyDate(int y, int m, int d)
+	{
+		year = y;
+		month = m;
+		day = d;
+	}
