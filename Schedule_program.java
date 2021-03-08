@@ -11,3 +11,9 @@ public class MyDate 	// 이 프로그램의 핵심은 하나의 공통상위클�
 		month = m;
 		day = d;
 	}
+
+	public String toString()
+	{
+		return year + "/" + month + "/" + day;
+	}
+}
