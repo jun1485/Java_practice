@@ -17,3 +17,10 @@ public class MyDate 	// 이 프로그램의 핵심은 하나의 공통상위클�
 		return year + "/" + month + "/" + day;
 	}
 }
+
+--------------------------------------
+
+	// Event(class)
+public class Event 
+{
+	public String title;
