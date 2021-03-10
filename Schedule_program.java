@@ -24,3 +24,9 @@ public class MyDate 	// 이 프로그램의 핵심은 하나의 공통상위클�
 public class Event 
 {
 	public String title;
+
+	public Event(String title)
+	{
+		this.title = title;
+	}
+}
