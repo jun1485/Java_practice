@@ -30,3 +30,11 @@ public class Event
 		this.title = title;
 	}
 }
+
+--------------------------------------
+
+	// DeadlineEvent(class)
+public class DeadlineEvent extends Event
+{
+	//public String title;	Event에서 상속받음
+	public MyDate deadline;
