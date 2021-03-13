@@ -38,3 +38,9 @@ public class DeadlineEvent extends Event
 {
 	//public String title;	Event에서 상속받음
 	public MyDate deadline;
+	
+	public DeadlineEvent(String title, MyDate date)
+	{
+		super(title);
+		this.deadline = date;
+	}
