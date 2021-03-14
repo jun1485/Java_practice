@@ -44,3 +44,9 @@ public class DeadlineEvent extends Event
 		super(title);
 		this.deadline = date;
 	}
+
+	public String toString()
+	{ 
+		return title + ", " + deadline.toString();
+	}
+}
