@@ -50,3 +50,12 @@ public class DeadlineEvent extends Event
 		return title + ", " + deadline.toString();
 	}
 }
+
+--------------------------------------
+
+	// DurationEvent(class)
+public class DurationEvent extends Event 
+{
+	//public String title;	Event에서 상속받음
+	public MyDate begin;
+	public MyDate date;
