@@ -59,3 +59,11 @@ public class DurationEvent extends Event
 	//public String title;	Event에서 상속받음
 	public MyDate begin;
 	public MyDate date;
+
+	public DurationEvent(String title, MyDate begin, MyDate e)
+	{
+		super(title);
+		this.begin = begin;
+		date = e;
+	}
+}
