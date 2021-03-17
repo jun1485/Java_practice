@@ -67,3 +67,10 @@ public class DurationEvent extends Event
 		date = e;
 	}
 }
+
+--------------------------------------
+
+	// OneDayEvent(class)
+public class OneDayEvent extends Event
+{
+	//public String title;	Event에서 상속받음
