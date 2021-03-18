@@ -74,3 +74,10 @@ public class DurationEvent extends Event
 public class OneDayEvent extends Event
 {
 	//public String title;	Event에서 상속받음
+	public MyDate date;
+	
+	public OneDayEvent(String title, MyDate date)
+	{
+		super(title);
+		this.date = date;
+	}
