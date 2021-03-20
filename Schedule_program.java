@@ -81,3 +81,11 @@ public class OneDayEvent extends Event
 		super(title);
 		this.date = date;
 	}
+
+	public String toString()
+	{ 
+		return title + ", " + date.toString();
+	}
+}
+
+--------------------------------------
