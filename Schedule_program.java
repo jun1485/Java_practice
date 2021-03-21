@@ -89,3 +89,11 @@ public class OneDayEvent extends Event
 }
 
 --------------------------------------
+
+	// Scheduler(class(main))
+import java.util.Scanner;
+
+public class Scheduler
+{
+	private int capacity = 10;
+	public Event[] events = new Event[capacity];
