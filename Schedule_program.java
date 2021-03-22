@@ -97,3 +97,9 @@ public class Scheduler
 {
 	private int capacity = 10;
 	public Event[] events = new Event[capacity];
+	public int n = 0;	//n은 현재 배열에 저장되어 있는 객체의 수
+	private Scanner kb;
+	
+	public void processCommand()
+	{
+		kb = new Scanner(System.in);
