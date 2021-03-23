@@ -103,3 +103,8 @@ public class Scheduler
 	public void processCommand()
 	{
 		kb = new Scanner(System.in);
+		while(true)
+		{
+			System.out.print("$ :");
+			String command = kb.next();
+			if(command.equals("addEvent")) 
