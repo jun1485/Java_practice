@@ -108,3 +108,8 @@ public class Scheduler
 			System.out.print("$ :");
 			String command = kb.next();
 			if(command.equals("addEvent")) 
+			{
+				String type = kb.next();
+				if(type.equalsIgnoreCase("oneday"))
+					handAddOneDayEvent();
+				else if()
