@@ -116,5 +116,8 @@ public class Scheduler
 					handAddDurationEvent();
 				else if(type.equalsIgnoreCase("deadline"))
 					handAddDeadlineEvent();
+			}
+			else if(command.equals("list"))
+			{
 				
 			}
