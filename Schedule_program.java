@@ -112,4 +112,9 @@ public class Scheduler
 				String type = kb.next();
 				if(type.equalsIgnoreCase("oneday"))
 					handAddOneDayEvent();
-				else if()
+				else if(type.equalsIgnoreCase("duration"))
+					handAddDurationEvent();
+				else if(type.equalsIgnoreCase("deadline"))
+					handAddDeadlineEvent();
+				
+			}
