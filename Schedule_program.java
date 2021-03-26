@@ -121,3 +121,10 @@ public class Scheduler
 			{
 				
 			}
+			else if(command.equals("exit"))
+			{
+				break;
+			}
+		}
+		kb.close();
+	}
