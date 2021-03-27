@@ -128,3 +128,12 @@ public class Scheduler
 		}
 		kb.close();
 	}
+	private void handAddDeadlineEvent() 
+	{
+		
+	}
+
+	private void handAddDurationEvent()
+	{
+		
+	}
