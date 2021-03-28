@@ -137,3 +137,9 @@ public class Scheduler
 	{
 		
 	}
+	private void handAddOneDayEvent() 
+	{
+		System.out.print("  when : ");
+		String dateString = kb.next();
+		System.out.print("  title : ");
+		String titleString = kb.next();
