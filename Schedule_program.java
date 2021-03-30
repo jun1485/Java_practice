@@ -143,3 +143,9 @@ public class Scheduler
 		String dateString = kb.next();
 		System.out.print("  title : ");
 		String titleString = kb.next();
+
+		MyDate date = parseDateString(dateString);
+		
+		OneDayEvent ODev = new OneDayEvent(titleString, date);
+		addEvent(ODev);
+	}
