@@ -149,3 +149,10 @@ public class Scheduler
 		OneDayEvent ODev = new OneDayEvent(titleString, date);
 		addEvent(ODev);
 	}
+
+	private void addEvent(OneDayEvent ev)
+	{
+		if(n >= capacity)
+			reallocate();
+			events[n++] = ev;
+	}
