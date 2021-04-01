@@ -156,3 +156,9 @@ public class Scheduler
 			reallocate();
 			events[n++] = ev;
 	}
+	
+	private void reallocate()
+	{
+		Event[] tmpEv = new Event[capacity*2];
+		for(int i=0; i<n; i++)
+			tmpEv[i] = events[i];
