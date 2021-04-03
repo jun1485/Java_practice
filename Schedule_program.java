@@ -168,3 +168,10 @@ public class Scheduler
 
 	private MyDate parseDateString(String dateString) 
 	{
+		String tokens[] = dateString.split("/");
+		int year = Integer.parseInt(tokens[0]);
+		int month = Integer.parseInt(tokens[1]);
+		int day= Integer.parseInt(tokens[2]);
+		
+		return null;
+	}	
