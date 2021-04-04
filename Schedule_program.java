@@ -175,3 +175,11 @@ public class Scheduler
 		
 		return null;
 	}	
+	
+	public static void main(String[] args) 
+	{
+		
+		Scheduler app = new Scheduler();
+		app.processCommand();
+	}
+}
