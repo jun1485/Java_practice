@@ -6,3 +6,7 @@ public class QuickSort {
 		final int max = 10;
 		int[] A  = new int[]{40, 30, 100, 60, 80, 70, 90, 10, 20, 50};
 		int i;
+	
+		System.out.println("sorting . . .");
+		for(i=0; i<max; i++) {
+			System.out.println(A[i]);
