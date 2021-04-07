@@ -10,3 +10,8 @@ public class QuickSort {
 		System.out.println("sorting . . .");
 		for(i=0; i<max; i++) {
 			System.out.println(A[i]);
+		
+			QuickSort(A, 0, max-1);
+		}
+	}
+	private static void QuickSort(int A[], int start, int end)
