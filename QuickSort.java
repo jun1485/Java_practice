@@ -15,3 +15,7 @@ public class QuickSort {
 		}
 	}
 	private static void QuickSort(int A[], int start, int end)
+	int index;
+		
+		if(start < end) {
+			index = Partition(A, start, end);
