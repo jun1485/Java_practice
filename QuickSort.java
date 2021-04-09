@@ -19,3 +19,6 @@ public class QuickSort {
 		
 		if(start < end) {
 			index = Partition(A, start, end);
+	
+			QuickSort(A, start, index-1);
+			QuickSort(A, index+1, end);
