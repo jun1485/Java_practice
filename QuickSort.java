@@ -22,3 +22,10 @@ public class QuickSort {
 	
 			QuickSort(A, start, index-1);
 			QuickSort(A, index+1, end);
+	}
+}
+	private static int Partition(int[] A, int start, int end) {
+		int pivot = A[end];
+		int i;
+		int index = start;
+		int tmp;
