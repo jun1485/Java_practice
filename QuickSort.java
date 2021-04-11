@@ -29,3 +29,7 @@ public class QuickSort {
 		int i;
 		int index = start;
 		int tmp;
+	
+		for(i=start; i<end; i++) {
+			if(A[i] < A[end]) {
+				tmp = A[i];
