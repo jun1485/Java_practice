@@ -36,3 +36,7 @@ public class QuickSort {
 				index++;
 			}
 		}
+		
+		tmp = A[index];
+		A[index] = A[end];
+		A[end] = tmp;
