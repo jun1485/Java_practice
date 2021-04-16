@@ -8,3 +8,5 @@ public class RadixSort {
 			max = Math.max(data[i-1], data[i]);
 			radixSort(data, data.length, max);
 		}
+	}
+}
