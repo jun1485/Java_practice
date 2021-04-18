@@ -9,4 +9,8 @@ public class RadixSort {
 			radixSort(data, data.length, max);
 		}
 	}
-}
+	static void radixSort(int[] data, int n, int max) {
+		for(int i=1; (max/i) > 0; i=i*10) {
+			countSort(data, n, i);
+		}
+	}
