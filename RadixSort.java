@@ -14,3 +14,6 @@ public class RadixSort {
 			countSort(data, n, i);
 		}
 	}
+	
+	static void countSort(int[] data, int n, int digit) {
+		int[] temp = new int[n];
