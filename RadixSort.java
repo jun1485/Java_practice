@@ -17,3 +17,9 @@ public class RadixSort {
 	
 	static void countSort(int[] data, int n, int digit) {
 		int[] temp = new int[n];
+		int[] cnt = new int[10];
+		
+		System.out.println("\n\n" + digit + " 의 자리 정렬 전 값");
+		for(int i=0; i<n; i++) {
+			System.out.printf("%3d ", data[i]);
+		}
