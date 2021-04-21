@@ -23,3 +23,7 @@ public class RadixSort {
 		for(int i=0; i<n; i++) {
 			System.out.printf("%3d ", data[i]);
 		}
+
+		for(int i=0; i<=9; i++) {
+			cnt[i] = cnt[i] + cnt[i-1];
+		}
