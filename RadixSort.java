@@ -30,3 +30,5 @@ public class RadixSort {
 		
 		for(int i=n-1; i>=0; i--) {
 			int cntValue = (data[i]/digit) % 10;
+			int newIdx = cnt[cntValue]-1;
+			temp[newIdx] = data[i];
