@@ -38,3 +38,10 @@ public class RadixSort {
 		for(int i=0; i<n; i++) {
 			data[i] = temp[i];
 		}
+		
+		System.out.println("\n\n" + digit + "의 자리 정렬 후 값");
+		for(int i=0; i<n; i++) {
+			System.out.printf("%3d", data[i]);
+		}
+	}
+}
