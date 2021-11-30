@@ -1,0 +1,5 @@
+        class JPanel01 extends JPanel {  // 1번째 패널 (메인화면,로그인)
+
+            private JButton jButton1;
+            private JButton jButton2;
+            private JButton jButton3;
