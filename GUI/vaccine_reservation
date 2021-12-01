@@ -3,3 +3,6 @@
             private JButton jButton1;
             private JButton jButton2;
             private JButton jButton3;
+            private JScrollPane jScrollPane1;
+            private JTextArea jTextArea1;
+            private JPanelTest win;
