@@ -23,3 +23,9 @@ import javax.swing.JTextField;
             private JScrollPane jScrollPane1;
             private JTextArea jTextArea1;
             private JPanelTest win;
+            private JTextField textField;
+            private JPasswordField passwordField;
+
+            public JPanel01(JPanelTest win){
+                this.win = win;
+                setLayout(null);
