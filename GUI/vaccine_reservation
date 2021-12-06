@@ -29,3 +29,5 @@ import javax.swing.JTextField;
             public JPanel01(JPanelTest win){
                 this.win = win;
                 setLayout(null);
+
+   B
