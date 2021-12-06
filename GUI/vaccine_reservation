@@ -30,4 +30,6 @@ import javax.swing.JTextField;
                 this.win = win;
                 setLayout(null);
 
-   B
+                JLabel mainDsp = new JLabel("백신 예약 프로그램");
+                mainDsp.setFont(new Font("Serif", Font.BOLD, 23));
+                mainDsp.setBounds(78, 40, 400, 50);
