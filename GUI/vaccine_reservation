@@ -1,27 +1,9 @@
-package jv;
-
 import java.awt.Dimension;
 import java.awt.Font;
-import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
 
-import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
@@ -30,15 +12,37 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JScrollPane;
-import javax.swing.JTable;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
-import javax.swing.event.MenuKeyEvent;
-import javax.swing.table.DefaultTableModel;
 
-/*전역변수로 사용할 것들*/
-class cn { // connect
-	static int userno = -1;
-	static boolean ismanage = false;
-	static boolean condition = false; // 예약취소시 true, 회원정보 수정시 false, 비밀번호 분실시 true
-	static Connection conn = null;
+        class JPanel01 extends JPanel {  // 1번째 패널 (메인화면,로그인)
+
+            private JButton jButton1;
+            private JButton jButton2;
+            private JButton jButton3;
+            private JScrollPane jScrollPane1;
+            private JTextArea jTextArea1;
+            private JPanelTest win;
+            private JTextField textField;
+            private JPasswordField passwordField;
+
+            public JPanel01(JPanelTest win){
+                this.win = win;
+                setLayout(null);
+
+                JLabel mainDsp = new JLabel("백신 예약 프로그램");
+                mainDsp.setFont(new Font("Serif", Font.BOLD, 23));
+                mainDsp.setBounds(78, 40, 400, 50);
+                add(mainDsp);
+                
+                JLabel mainDsp2 = new JLabel("YUVID");
+                mainDsp2.setFont(new Font("Serif", Font.BOLD, 23));
+                mainDsp2.setBounds(139, 70, 120, 65);
+                add(mainDsp2);
+                
+                jButton1 = new JButton("회원가입");
+                jButton1.setSize(100,23);
+                jButton1.setLocation(10, 270);
+                add(jButton1);
+
+                jButton2 = new JButton("ID찾기");
