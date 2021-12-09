@@ -46,3 +46,4 @@ import javax.swing.JTextField;
                 add(jButton1);
 
                 jButton2 = new JButton("ID찾기");
+script
