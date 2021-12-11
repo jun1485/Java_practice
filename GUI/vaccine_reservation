@@ -49,3 +49,7 @@ import javax.swing.JTextField;
                 jButton2.setSize(100,23);
                 jButton2.setLocation(125, 270);
                 add(jButton2);
+                
+                jButton3 = new JButton("PW찾기");
+                jButton3.setSize(100,23);
+                jButton3.setLocation(240, 270);
