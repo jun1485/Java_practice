@@ -57,3 +57,7 @@ import javax.swing.JTextField;
 
                 JButton loginBtn2 = new JButton("로그인");
                 loginBtn2.setSize(86,31);
+                loginBtn2.setLocation(262,178);
+                add(loginBtn2);
+                
+                JButton adv_covid = new JButton("게시판");
