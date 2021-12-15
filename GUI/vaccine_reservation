@@ -61,3 +61,6 @@ import javax.swing.JTextField;
                 add(loginBtn2);
                 
                 JButton adv_covid = new JButton("게시판");
+                adv_covid.setSize(156,31);
+                adv_covid.setLocation(98,338);
+                add(adv_covid);
