@@ -72,3 +72,5 @@ import javax.swing.JTextField;
                 JTextField input_id = new JTextField();
                 input_id.setBounds(93, 167, 146, 21);
                 add(input_id);
+
+q
