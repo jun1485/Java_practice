@@ -72,5 +72,8 @@ import javax.swing.JTextField;
                 JTextField input_id = new JTextField();
                 input_id.setBounds(93, 167, 146, 21);
                 add(input_id);
+                input_id.setColumns(10);
 
-q
+                JLabel lblLbl_1 = new JLabel("PW");
+                lblLbl_1.setBounds(60, 204, 67, 15);
+                add(lblLbl_1);
