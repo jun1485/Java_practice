@@ -82,4 +82,8 @@ import javax.swing.JTextField;
                 pword1.setBounds(93, 201, 146, 21);
                 add(pword1);
  
-d
+                jButton1.addActionListener(new MyActionListener());
+                jButton2.addActionListener(new MyActionListener2());
+                jButton3.addActionListener(new MyActionListener3());
+                loginBtn2.addActionListener(new MyActionListener4());
+            }
