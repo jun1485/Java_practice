@@ -94,3 +94,6 @@ import javax.swing.JTextField;
                     win.change("panel02");
                 }
             }
+
+            class MyActionListener2 implements ActionListener { 
+                @Override
