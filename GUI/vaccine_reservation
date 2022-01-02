@@ -120,3 +120,7 @@ import javax.swing.JTextField;
 
         class JPanel02 extends JPanel {        // 2번째 패널(회원가입)
             private JTextField textField;
+            private JPasswordField passwordField;
+            private JPanelTest win;
+
+            public JPanel02(JPanelTest win) {
