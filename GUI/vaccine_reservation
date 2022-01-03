@@ -124,3 +124,7 @@ import javax.swing.JTextField;
             private JPanelTest win;
 
             public JPanel02(JPanelTest win) {
+                setLayout(null);
+                this.win = win;
+                
+                JLabel lblLbl = new JLabel("ID");
