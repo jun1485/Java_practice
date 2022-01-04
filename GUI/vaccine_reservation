@@ -128,3 +128,7 @@ import javax.swing.JTextField;
                 this.win = win;
                 
                 JLabel lblLbl = new JLabel("ID");
+                lblLbl.setBounds(78, 100, 67, 15);
+                add(lblLbl);
+
+                textField = new JTextField();
