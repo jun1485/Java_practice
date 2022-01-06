@@ -135,4 +135,7 @@ import javax.swing.JTextField;
                 textField.setBounds(103, 97, 116, 21);
                 add(textField);
                 textField.setColumns(10);
-'
+
+                JLabel lblLbl_1 = new JLabel("PW");
+                lblLbl_1.setBounds(70, 144, 67, 15);
+                add(lblLbl_1);
