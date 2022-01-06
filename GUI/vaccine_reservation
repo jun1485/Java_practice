@@ -135,3 +135,4 @@ import javax.swing.JTextField;
                 textField.setBounds(103, 97, 116, 21);
                 add(textField);
                 textField.setColumns(10);
+'
