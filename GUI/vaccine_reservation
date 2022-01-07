@@ -139,3 +139,7 @@ import javax.swing.JTextField;
                 JLabel lblLbl_1 = new JLabel("PW");
                 lblLbl_1.setBounds(70, 144, 67, 15);
                 add(lblLbl_1);
+
+                passwordField = new JPasswordField();
+                passwordField.setBounds(103, 141, 116, 21);
+                add(passwordField);
