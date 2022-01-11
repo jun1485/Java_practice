@@ -155,3 +155,4 @@ import javax.swing.JTextField;
                 JButton loginBtn = new JButton("중복확인");
                 loginBtn.setSize(85,19);
                 loginBtn.setLocation(232,97);
+                add(loginBtn);
