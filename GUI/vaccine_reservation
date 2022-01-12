@@ -156,3 +156,6 @@ import javax.swing.JTextField;
                 loginBtn.setSize(85,19);
                 loginBtn.setLocation(232,97);
                 add(loginBtn);
+                
+                JLabel signIn_name = new JLabel("이름");
+                signIn_name.setBounds(68, 215, 67, 15);
