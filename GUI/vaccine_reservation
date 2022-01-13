@@ -159,3 +159,6 @@ import javax.swing.JTextField;
                 
                 JLabel signIn_name = new JLabel("이름");
                 signIn_name.setBounds(68, 215, 67, 15);
+                add(signIn_name);
+
+                textField = new JTextField();
