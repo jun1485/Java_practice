@@ -162,3 +162,6 @@ import javax.swing.JTextField;
                 add(signIn_name);
 
                 textField = new JTextField();
+                textField.setBounds(103, 212, 116, 21);
+                add(textField);
+                textField.setColumns(10);
