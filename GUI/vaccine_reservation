@@ -165,3 +165,7 @@ import javax.swing.JTextField;
                 textField.setBounds(103, 212, 116, 21);
                 add(textField);
                 textField.setColumns(10);
+                
+                JLabel signIn_num = new JLabel("주민등록번호");
+                signIn_num.setBounds(18, 245, 117, 15);
+                add(signIn_num);
