@@ -177,3 +177,7 @@ import javax.swing.JTextField;
                 
                 JLabel signIn_phone = new JLabel("전화번호");
                 signIn_phone.setBounds(40, 289, 117, 15);
+                add(signIn_phone);
+
+                textField = new JTextField();
+                textField.setBounds(103, 286, 116, 21);
