@@ -181,3 +181,7 @@ import javax.swing.JTextField;
 
                 textField = new JTextField();
                 textField.setBounds(103, 286, 116, 21);
+                add(textField);
+                textField.setColumns(10);
+                
+                JButton idFindBtn = new JButton("가입");
