@@ -185,3 +185,6 @@ import javax.swing.JTextField;
                 textField.setColumns(10);
                 
                 JButton idFindBtn = new JButton("가입");
+                idFindBtn.setSize(65,25);
+                idFindBtn.setLocation(75,320);
+                add(idFindBtn);
