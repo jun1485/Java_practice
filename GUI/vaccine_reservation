@@ -188,3 +188,4 @@ import javax.swing.JTextField;
                 idFindBtn.setSize(65,25);
                 idFindBtn.setLocation(75,320);
                 add(idFindBtn);
+ㅇ ㅈ
