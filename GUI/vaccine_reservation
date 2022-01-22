@@ -192,3 +192,6 @@ import javax.swing.JTextField;
                 JButton pwFindBtn = new JButton("취소");
                 pwFindBtn.setSize(65,25);
                 pwFindBtn.setLocation(153,320);
+
+                JButton btn = new JButton("돌아가기");
+                btn.setSize(120,20);
