@@ -198,3 +198,7 @@ import javax.swing.JTextField;
                 btn.setLocation(10,10);
                 add(btn);
                 btn.addActionListener(new MyActionListener());
+                idFindBtn.addActionListener(new MyActionListener2());
+                pwFindBtn.addActionListener(new MyActionListener3());
+                
+                loginBtn.addActionListener(new ActionListener() {
