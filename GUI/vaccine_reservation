@@ -225,4 +225,11 @@ import javax.swing.JTextField;
                 }
             }
             
-            class MyActionListener3 implements Actio
+            class MyActionListener3 implements ActionListener {   
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    win.change("panel01");
+                }
+            }
+            
+        }
