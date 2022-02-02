@@ -233,3 +233,7 @@ import javax.swing.JTextField;
             }
             
         }
+
+        class JPanel03 extends JPanel {        // 3번째 패널(ID찾기)
+            private JTextField textField;
+            private JPasswordField passwordField;
