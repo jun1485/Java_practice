@@ -249,3 +249,9 @@ import javax.swing.JTextField;
                 textField = new JTextField();
                 textField.setBounds(123, 57, 116, 21);
                 add(textField);
+                textField.setColumns(10);
+
+                JLabel lblLbl_1 = new JLabel("전화번호 입력:");                lblLbl_1.setBounds(31, 94, 107, 15);
+                add(lblLbl_1);
+
+                passwordField = new JPasswordField();
