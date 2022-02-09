@@ -262,3 +262,7 @@ import javax.swing.JTextField;
                 loginBtn.setSize(60,25);
                 loginBtn.setLocation(98,135);
                 add(loginBtn);
+                
+                JButton backBtn = new JButton("취소");
+                backBtn.setSize(60,25);
+                backBtn.setLocation(178,135);
