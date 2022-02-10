@@ -266,3 +266,6 @@ import javax.swing.JTextField;
                 JButton backBtn = new JButton("취소");
                 backBtn.setSize(60,25);
                 backBtn.setLocation(178,135);
+                add(backBtn);
+                backBtn.addActionListener(new MyActionListener());
+                
