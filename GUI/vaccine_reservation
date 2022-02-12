@@ -274,3 +274,8 @@ import javax.swing.JTextField;
                       JOptionPane.showMessageDialog(null, "경고창 !");
                       
                    }
+                });
+                
+            }
+            class MyActionListener implements ActionListener {        
+                @Override
