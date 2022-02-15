@@ -284,3 +284,6 @@ import javax.swing.JTextField;
                 }
             }
 
+        }
+        class JPanel04 extends JPanel {        // 4번째 패널(PW찾기)
+            private JTextField textField;
