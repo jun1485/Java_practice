@@ -301,3 +301,7 @@ import javax.swing.JTextField;
                 textField = new JTextField();
                 textField.setBounds(123, 93, 116, 21);
                 add(textField);
+                textField.setColumns(10);
+                
+                JLabel lblLbl = new JLabel("이름:");
+                lblLbl.setBounds(84, 130, 77, 15);
