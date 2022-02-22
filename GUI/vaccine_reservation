@@ -313,3 +313,7 @@ import javax.swing.JTextField;
                 textField.setColumns(10);
 
                 JLabel lblLbl_1 = new JLabel("전화번호 입력:");
+                lblLbl_1.setBounds(31, 164, 107, 15);
+                add(lblLbl_1);
+
+                passwordField = new JPasswordField();
