@@ -34,6 +34,7 @@ import javax.swing.JTextField;
                 mainDsp.setFont(new Font("Serif", Font.BOLD, 23));
                 mainDsp.setBounds(78, 40, 400, 50);
                 add(mainDsp);
+
                 
                 JLabel mainDsp2 = new JLabel("YUVID");
                 mainDsp2.setFont(new Font("Serif", Font.BOLD, 23));
