@@ -318,3 +318,7 @@ import javax.swing.JTextField;
                 add(lblLbl_1);
 
                 passwordField = new JPasswordField();
+                passwordField.setBounds(123, 161, 116, 21);
+                add(passwordField);
+
+                JButton loginBtn = new JButton("찾기");
