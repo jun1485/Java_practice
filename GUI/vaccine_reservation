@@ -322,3 +322,6 @@ import javax.swing.JTextField;
                 add(passwordField);
 
                 JButton loginBtn = new JButton("찾기");
+                loginBtn.setSize(60,25);
+                loginBtn.setLocation(98,205);
+                add(loginBtn);
