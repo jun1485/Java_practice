@@ -330,3 +330,7 @@ import javax.swing.JTextField;
                 backBtn.setSize(60,25);
                 backBtn.setLocation(178,205);
                 add(backBtn);
+                backBtn.addActionListener(new MyActionListener());
+                loginBtn.addActionListener(new MyActionListener2());
+                
+                loginBtn.addActionListener(new ActionListener() {
