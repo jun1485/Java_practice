@@ -334,4 +334,5 @@ import javax.swing.JTextField;
                 loginBtn.addActionListener(new MyActionListener2());
                 
                 loginBtn.addActionListener(new ActionListener() {
-
+                public void actionPerformed(ActionEvent e) {
+                      JOptionPane.showMessageDialog(null, "(만약 DB와 다르다면 에러 !)");
