@@ -354,3 +354,8 @@ import javax.swing.JTextField;
                 }
  
 
+            }
+            
+        }
+        
+        class JPanel05 extends JPanel {        // 5번째 패널
