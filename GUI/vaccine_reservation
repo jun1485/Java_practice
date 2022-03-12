@@ -362,3 +362,7 @@ import javax.swing.JTextField;
             private JTextField textField;
             private JPasswordField passwordField;
             private JPanelTest win;
+
+            public JPanel05(JPanelTest win) {
+                setLayout(null);
+                this.win = win;
