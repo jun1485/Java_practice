@@ -366,3 +366,6 @@ import javax.swing.JTextField;
             public JPanel05(JPanelTest win) {
                 setLayout(null);
                 this.win = win;
+                JLabel lblLbl = new JLabel("이름:");
+                lblLbl.setBounds(84, 60, 77, 15);
+                add(lblLbl);
