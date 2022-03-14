@@ -369,3 +369,7 @@ import javax.swing.JTextField;
                 JLabel lblLbl = new JLabel("이름:");
                 lblLbl.setBounds(84, 60, 77, 15);
                 add(lblLbl);
+
+                textField = new JTextField();
+                textField.setBounds(123, 57, 116, 21);
+                add(textField);
