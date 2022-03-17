@@ -377,3 +377,4 @@ import javax.swing.JTextField;
 
                 JLabel lblLbl_1 = new JLabel("전화번호 입력:");
                 lblLbl_1.setBounds(31, 94, 107, 15);
+
