@@ -396,3 +396,7 @@ import javax.swing.JTextField;
                 backBtn.setLocation(178,135);
                 add(backBtn);
 
+                backBtn.addActionListener(new MyActionListener());
+                
+                loginBtn.addActionListener(new ActionListener() {
+                   public void actionPerformed(ActionEvent e) {
