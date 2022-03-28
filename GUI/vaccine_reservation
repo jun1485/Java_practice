@@ -413,3 +413,8 @@ import javax.swing.JTextField;
                 }
             }
         }
+        
+        class JPanel06 extends JPanel {        // 6번째 패널(관리자용 메인메뉴)
+            private JTextField textField;
+            private JPasswordField passwordField;
+            private JPanelTest win;
