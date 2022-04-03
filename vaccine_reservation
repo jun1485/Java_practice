@@ -422,3 +422,8 @@ import javax.swing.JTextField;
             public JPanel06(JPanelTest win) {
                 setLayout(null);
                 this.win = win;
+               
+                JButton btn = new JButton("회원정보 수정");
+                btn.setSize(120,20);
+                btn.setLocation(10,15);
+                add(btn);
