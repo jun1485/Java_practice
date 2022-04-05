@@ -427,3 +427,8 @@ import javax.swing.JTextField;
                 btn.setSize(120,20);
                 btn.setLocation(10,15);
                 add(btn);
+                
+                JButton logout_btn = new JButton("로그아웃");
+                logout_btn.setSize(90,20);
+                logout_btn.setLocation(273,15);
+                add(logout_btn);
