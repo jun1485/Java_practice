@@ -432,3 +432,7 @@ import javax.swing.JTextField;
                 logout_btn.setSize(90,20);
                 logout_btn.setLocation(273,15);
                 add(logout_btn);
+                
+                JButton reserve_btn = new JButton("접종 예약");
+                reserve_btn.setSize(160,28);
+                reserve_btn.setLocation(98,115);
