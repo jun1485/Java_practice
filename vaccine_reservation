@@ -436,3 +436,7 @@ import javax.swing.JTextField;
                 JButton reserve_btn = new JButton("접종 예약");
                 reserve_btn.setSize(160,28);
                 reserve_btn.setLocation(98,115);
+                add(reserve_btn);
+                
+                JButton lookup_btn = new JButton("접종 조희");
+                lookup_btn.setSize(160,28);
