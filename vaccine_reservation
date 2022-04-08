@@ -440,3 +440,8 @@ import javax.swing.JTextField;
                 
                 JButton lookup_btn = new JButton("접종 조희");
                 lookup_btn.setSize(160,28);
+                lookup_btn.setLocation(98,160);
+                add(lookup_btn);
+                
+                JButton reserve_cancle_btn = new JButton("접종 취소");
+                reserve_cancle_btn.setSize(160,28);
