@@ -445,3 +445,4 @@ import javax.swing.JTextField;
                 
                 JButton reserve_cancle_btn = new JButton("접종 취소");
                 reserve_cancle_btn.setSize(160,28);
+
