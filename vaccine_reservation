@@ -450,3 +450,8 @@ import javax.swing.JTextField;
                 
                 JButton mod_hospital_btn = new JButton("병원리스트 수정");
                 mod_hospital_btn.setSize(160,28);
+                mod_hospital_btn.setLocation(98,250);
+                add(mod_hospital_btn);
+                
+                JButton mod_vaccine_btn = new JButton("백신 재고리스트 수정");
+                mod_vaccine_btn.setSize(160,28);
