@@ -455,3 +455,8 @@ import javax.swing.JTextField;
                 
                 JButton mod_vaccine_btn = new JButton("백신 재고리스트 수정");
                 mod_vaccine_btn.setSize(160,28);
+                mod_vaccine_btn.setLocation(98,295);
+                add(mod_vaccine_btn);
+                
+                JButton gotoBoard_btn = new JButton("게시판");
+                gotoBoard_btn.setSize(160,28);
