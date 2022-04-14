@@ -460,3 +460,4 @@ import javax.swing.JTextField;
                 
                 JButton gotoBoard_btn = new JButton("게시판");
                 gotoBoard_btn.setSize(160,28);
+
