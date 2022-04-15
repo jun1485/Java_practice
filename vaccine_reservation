@@ -461,3 +461,7 @@ import javax.swing.JTextField;
                 JButton gotoBoard_btn = new JButton("게시판");
                 gotoBoard_btn.setSize(160,28);
 
+                gotoBoard_btn.setLocation(98,340);
+                add(gotoBoard_btn);
+                
+                btn.addActionListener(new MyActionListener());
