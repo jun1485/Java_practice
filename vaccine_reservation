@@ -465,3 +465,7 @@ import javax.swing.JTextField;
                 add(gotoBoard_btn);
                 
                 btn.addActionListener(new MyActionListener());
+               reserve_btn.addActionListener(new MyActionListener2());
+                lookup_btn.addActionListener(new MyActionListener3());
+                logout_btn.addActionListener(new MyActionListener4());
+                mod_hospital_btn.addActionListener(new MyActionListener5());
