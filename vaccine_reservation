@@ -479,3 +479,7 @@ import javax.swing.JTextField;
                 public void actionPerformed(ActionEvent e) {
                     win.change("panel16");
                 }
+            }
+            
+            class MyActionListener2 implements ActionListener {   
+                @Override
