@@ -515,3 +515,11 @@ import javax.swing.JTextField;
                     win.change("panel13");
                 }
             }
+
+            class MyActionListener7 implements ActionListener {   
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    win.change("panel14");
+                }
+            }
+        }
