@@ -523,3 +523,8 @@ import javax.swing.JTextField;
                 }
             }
         }
+
+        class JPanel07 extends JPanel {        // 
+            private JTextField textField;
+            private JPasswordField passwordField;
+            private JPanelTest win;
