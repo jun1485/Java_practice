@@ -533,3 +533,4 @@ import javax.swing.JTextField;
 
                 setLayout(null);
                 this.win = win;
+                
