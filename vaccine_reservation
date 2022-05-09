@@ -534,3 +534,7 @@ import javax.swing.JTextField;
                 setLayout(null);
                 this.win = win;
                 
+                lblLbl.setBounds(79, 60, 77, 15);
+                add(lblLbl);
+
+              
