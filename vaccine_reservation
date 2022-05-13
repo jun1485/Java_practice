@@ -545,3 +545,4 @@ import javax.swing.JTextField;
                 JLabel lblLbl_1 = new JLabel("새 PW 확인:");
                 lblLbl_1.setBounds(51, 94, 107, 15);
                 add(lblLbl_1);
+
