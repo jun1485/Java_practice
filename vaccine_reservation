@@ -546,3 +546,6 @@ import javax.swing.JTextField;
                 lblLbl_1.setBounds(51, 94, 107, 15);
                 add(lblLbl_1);
 
+                passwordField = new JPasswordField();
+                passwordField.setBounds(123, 91, 116, 21);
+                add(passwordField);
