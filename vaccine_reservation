@@ -575,3 +575,9 @@ import javax.swing.JTextField;
                     win.change("panel01");
                 }
             }
+        }
+        
+        class JPanel08 extends JPanel {        // (접종예약 화면)
+            private JTextField textField;
+            private JPasswordField passwordField;
+            private JPanelTest win;
