@@ -581,3 +581,11 @@ import javax.swing.JTextField;
             private JTextField textField;
             private JPasswordField passwordField;
             private JPanelTest win;
+
+            public JPanel08(JPanelTest win) {
+               String[] locate={"지역", "서울", "경기", "대구", "대전", "부산", "제주"};
+               String[] hospital={"병원이름1", "병원이름2", "병원이름3", "병원이름4", "병원이름5", };
+               String[] vac_time={"화이자 | MM-DD / hh:mm", "모더나 | MM-DD / hh:mm", "아스트라제네카 | MM-DD / hh:mm", "얀센 | MM-DD / hh:mm"};
+               
+                setLayout(null);
+                this.win = win;
