@@ -597,3 +597,11 @@ import javax.swing.JTextField;
                 JComboBox hosCombo = new JComboBox(hospital);
                 hosCombo.setBounds(80, 104, 176, 21);
                 add(hosCombo);
+                
+                JComboBox vacCombo = new JComboBox(vac_time);
+                vacCombo.setBounds(80, 140, 176, 21);
+                add(vacCombo);
+                JButton loginBtn = new JButton("예약");
+                loginBtn.setSize(60,25);
+                loginBtn.setLocation(98,190);
+                add(loginBtn);
