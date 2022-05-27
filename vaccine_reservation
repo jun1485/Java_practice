@@ -619,3 +619,10 @@ import javax.swing.JTextField;
                 });
                 
             }
+            class MyActionListener implements ActionListener {        
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    win.change("panel06");
+                }
+            }
+        }
