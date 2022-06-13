@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="carousel.css">
+</head>
+
+<body>
+    <div style="overflow:hidden;">
+        <div class="slide-container">
+            <div class="slide-img">
+                <img src="/img/car1.png">
+            </div>
+            <div class="slide-img">
+                <img src="/img/car2.png">
+            </div>
+            <div class="slide-img">
+                <img src="/img/car3.png">
+            </div>
+        </div>
+    </div>
+    <button class="slide-btn1">1</button>
+    <button class="slide-btn2">2</button>
+    <button class="slide-btn3">3</button>
+    <button class="slide-nextBtn">Next</button>
+    <script>
+        document.querySelector('.slide-btn1').addEventListener('click', function () {
+            document.querySelector('.slide-container').style.transform = 'translateX(0vw)';
+        });
+        document.querySelector('.slide-btn2').addEventListener('click', function () {
+            document.querySelector('.slide-container').style.transform = 'translateX(-50vw)';
+        });
+        document.querySelector('.slide-btn3').addEventListener('click', function () {
+            document.querySelector('.slide-container').style.transform = 'translateX(-100vw)';
+        });
+
+        let value = 5, nowValue = 5;
+        document.querySelector('.slide-nextBtn').addEventListener('click', function () {
+            document.querySelector('.slide-container').style.transform = 'translateX(-'+nowValue+'0vw)';
+            nowValue += 5;
+        });
+    </script>
+</body>
+
+</html>
