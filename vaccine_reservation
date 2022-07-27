@@ -626,16 +626,3 @@ import javax.swing.JTextField;
                 }
             }
         }
-
-/*
-setLayout(null);
-                this.win = win;
-
-                JComboBox nameCombo = new JComboBox(locate);
-                nameCombo.setBounds(80, 67, 176, 21);
-                add(nameCombo);
-                
-                JComboBox hosCombo = new JComboBox(hospital);
-                hosCombo.setBounds(80, 104, 176, 21);
-                add(hosCombo);
-*/
